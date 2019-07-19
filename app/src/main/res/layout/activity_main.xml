@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnKaydol"
+        android:id="@+id/btnMainKaydol"
         android:layout_width="221dp"
         android:layout_height="53dp"
         android:layout_marginStart="8dp"
