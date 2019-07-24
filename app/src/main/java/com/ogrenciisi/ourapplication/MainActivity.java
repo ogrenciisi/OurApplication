@@ -17,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
     private EditText kullaniciadi;
     private EditText sifre;
     private Button login;
-    private Button MainKaydol;
+    private Button MainKaydol,btnDeneme;
+
+    String url = " ";
+
 
 
 
@@ -30,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         kullaniciadi = findViewById(R.id.txtAd);
         sifre = findViewById(R.id.txtSifre);
         login = findViewById(R.id.btnLogin);
-        MainKaydol = findViewById(R.id.btnMainKaydol);
+        btnDeneme =findViewById(R.id.btnDeneme);
+        MainKaydol = findViewById(R.id.btnMaingoster);
         sifre.setHint("Password"); sifre.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
 
@@ -38,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //Ardından Intent methodunu kullanarak nereden nereye gideceğini söylüyoruz.
-                Intent intent = new Intent(MainActivity.this, AnaSayfa.class);
+                Intent intent = new Intent(MainActivity.this, Home.class);
                 startActivity(intent);            }
 
         });
@@ -52,12 +56,16 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        btnDeneme.setOnClickListener(new OnClickListener(){
+            @Override
+            public void onClick(View v) {
 
+          }
 
-
-
+        });
 
     }
+
 
 
 }

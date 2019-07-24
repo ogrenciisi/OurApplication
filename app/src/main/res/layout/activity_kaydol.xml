@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/icon3" />
 
     <EditText
-        android:id="@+id/txtMail"
+        android:id="@+id/txtKulAd"
         android:layout_width="355dp"
         android:layout_height="57dp"
         android:layout_marginStart="8dp"
@@ -34,16 +34,17 @@
         android:background="#D3BEBE"
         android:backgroundTint="#D3BEBE"
         android:ems="10"
-        android:hint="E-posta adresi"
+
+        android:hint="Kullanıcı Adı"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <EditText
-        android:id="@+id/txtAdSoyad"
+        android:id="@+id/txtUName"
         android:layout_width="355dp"
         android:layout_height="57dp"
         android:layout_marginStart="8dp"
@@ -53,13 +54,33 @@
         android:background="#D3BEBE"
         android:backgroundTint="#D3BEBE"
         android:ems="10"
-        android:hint="Adınız Soyadınız"
+
+        android:hint="Ad"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.451" />
+        app:layout_constraintVertical_bias="0.39" />
+
+    <EditText
+        android:id="@+id/txtUSurname"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D3BEBE"
+        android:backgroundTint="#D3BEBE"
+        android:ems="10"
+
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtKaydolSifre"
@@ -72,16 +93,34 @@
         android:background="#D3BEBE"
         android:backgroundTint="#D3BEBE"
         android:ems="10"
-        android:hint="Şifre"
+        android:hint="şifre"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.717" />
+
+    <EditText
+        android:id="@+id/txtUniAd"
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D3BEBE"
+        android:backgroundTint="#D3BEBE"
+        android:ems="10"
+        android:hint="üni"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
 
     <Button
-        android:id="@+id/btnMainKaydol"
+        android:id="@+id/btnMainKaydol2"
         android:layout_width="360dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"
@@ -93,10 +132,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
+        app:layout_constraintVertical_bias="0.882" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
