@@ -53,7 +53,7 @@ public class Kaydol extends AppCompatActivity {
                 StringRequest request = new StringRequest(Request.Method.POST, url_kaydet, new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(Kaydol.this, "işlemgercekleşti", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Kaydol.this, "işlem gercekleşti", Toast.LENGTH_SHORT).show();
 
                     }
                 }, new Response.ErrorListener() {
@@ -66,11 +66,11 @@ public class Kaydol extends AppCompatActivity {
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
                         Map<String,String> parameters  = new HashMap<String, String>();
-                        parameters.put("Kullanıcı Adı",kullaniciadi.getText().toString());
-                        parameters.put("Ad",Uname.getText().toString());
-                        parameters.put("Soyad", Usurname.getText().toString());
-                        parameters.put("Üniversite Adı", UniAd.getText().toString());
-                        parameters.put("Şifre", Usifre.getText().toString());
+                        parameters.put("kullaniciadi",kullaniciadi.getText().toString());
+                        parameters.put("Uname",Uname.getText().toString());
+                        parameters.put("Usurname", Usurname.getText().toString());
+                        parameters.put("UniAd", UniAd.getText().toString());
+                        parameters.put("Usifre", Usifre.getText().toString());
 
                         return parameters;
                     }
