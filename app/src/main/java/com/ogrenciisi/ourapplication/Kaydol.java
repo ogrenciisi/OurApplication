@@ -1,15 +1,7 @@
 package com.ogrenciisi.ourapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.text.InputType;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -18,7 +10,12 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -49,7 +46,7 @@ public class Kaydol extends AppCompatActivity {
         kaydol= findViewById(R.id.btnMainKaydol2);
         requestQueue = Volley.newRequestQueue(getApplicationContext());
 
-      kaydol.setOnClickListener(new View.OnClickListener(){
+        kaydol.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
 
