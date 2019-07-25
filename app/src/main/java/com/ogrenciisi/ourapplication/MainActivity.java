@@ -1,15 +1,16 @@
 package com.ogrenciisi.ourapplication;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.text.InputType;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         kullaniciadi = findViewById(R.id.txtAd);
         sifre = findViewById(R.id.txtSifre);
         login = findViewById(R.id.btnLogin);
+        btnDeneme =findViewById(R.id.btnDeneme);
         MainKaydol = findViewById(R.id.btnMaingoster);
         sifre.setHint("Password"); sifre.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
@@ -61,7 +63,13 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        btnDeneme.setOnClickListener(new OnClickListener(){
+            @Override
+            public void onClick(View v) {
 
+          }
+
+        });
 
     }
 
