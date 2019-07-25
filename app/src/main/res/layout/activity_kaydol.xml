@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131"
+        app:layout_constraintVertical_bias="0.062"
         app:srcCompat="@drawable/icon3" />
 
     <EditText
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.273" />
 
     <EditText
         android:id="@+id/txtUName"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.387" />
 
     <EditText
         android:id="@+id/txtUSurname"
@@ -93,13 +93,13 @@
         android:background="#D3BEBE"
         android:backgroundTint="#D3BEBE"
         android:ems="10"
-        android:hint="şifre"
+        android:hint="Şifre"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.726" />
 
     <EditText
         android:id="@+id/txtUniAd"
@@ -112,17 +112,17 @@
         android:background="#D3BEBE"
         android:backgroundTint="#D3BEBE"
         android:ems="10"
-        android:hint="üni"
+        android:hint="Üniversite Adı"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <Button
         android:id="@+id/btnMainKaydol2"
-        android:layout_width="360dp"
-        android:layout_height="60dp"
+        android:layout_width="221dp"
+        android:layout_height="53dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -132,10 +132,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintVertical_bias="0.913" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText kullaniciadi;
     private EditText sifre;
     private Button login;
-    private Button MainKaydol,btnDeneme;
+    private Button MainKaydol;
 
     String url = " ";
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         kullaniciadi = findViewById(R.id.txtAd);
         sifre = findViewById(R.id.txtSifre);
         login = findViewById(R.id.btnLogin);
-        btnDeneme =findViewById(R.id.btnDeneme);
+
         MainKaydol = findViewById(R.id.btnMaingoster);
         sifre.setHint("Password"); sifre.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
@@ -63,13 +63,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        btnDeneme.setOnClickListener(new OnClickListener(){
-            @Override
-            public void onClick(View v) {
-
-          }
-
-        });
 
     }
 
