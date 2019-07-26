@@ -1,5 +1,6 @@
 package com.ogrenciisi.ourapplication;
-//şuraya bi yorum satırı ekleyelim bakalım nolucak
+//şuraya bi yorum satırı tekrar ekledim be ustaaa
+//sanırım bir daha eklemem lazım
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
